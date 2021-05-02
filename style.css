@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom,dodgerblue,#a221f3);
+}
+
+.wrapper{
+	width: 80%;
+	height: 80%;
+	background: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+input{
+	display: block;
+	padding: 10px;
+	border: none;
+	background: #912ff4;
+	align-self: center;
+	transform: translate(-90px,100px);
+	color: #fff;
+	font-size: 20px;
+	border-radius: 8px;
+	outline: pink;
+
+}

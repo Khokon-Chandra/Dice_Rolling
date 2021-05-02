@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dice Making</title>
+	<link rel="stylesheet" type="text/css" href="dice.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="dice"></div>
+		<input type="button" value="Roll dice" id="roll-dice" >
+	</div>
+
+	<script src="dice.js"></script>
+	<script>
+
+		createDice();
+
+		document.getElementById("roll-dice").addEventListener('click',function(){
+			let diceNumber = Math.floor(Math.random()*6+1);
+			dice(diceNumber);
+		});
+		
+	</script>
+</body>
+</html>
